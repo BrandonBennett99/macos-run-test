@@ -1,0 +1,11 @@
+name: macOS basics
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: macos-latest
+    steps:
+      - name: macOS version
+        run: sw_vers
